@@ -41,9 +41,8 @@ setInterval(function(){
     }
   }else if(url == "twitter.com"){
     let feed;
-    let i=0;
     feed = document.getElementsByClassName("css-901oao");
-    for (i; i<feed.length; i++) {
+    for (let i=0; i<feed.length; i++) {
       // console.log("! "+i);
       // console.log(feed[i].innerHTML.toLowerCase());
       for(let j = 0; j < word.length; j++){
